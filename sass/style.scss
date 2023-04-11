@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Montserrat:wght@100&display=swap");
+
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+@import "../node_modules/material-icons/iconfont/material-icons.css";
+
+@import "../node_modules/aos/dist/aos.css";
+
+
+
+$primary: #d81324;
+$secondary: #0b2154;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// 5. Add additional custom code here
+$custom_sky_blue:#25ABE1;
+
+* {
+  font-family: "Barlow", sans-serif;
+}
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "primary": $primary,
+    "secondary": $secondary,
+    "custom_sky_blue":$custom_sky_blue,
+  )
+);
+
+.nav-link {
+  font-size: 14px;
+}
+.nav-img {
+  width: 100px;
+}
+.description {
+  p {
+    font-size: 12px;
+    width: 75%;
+  }
+}
+
+// Gallery CSS
+// .gallery {
+// }
+.arong {
+  border-radius: 0;
+  // .card {
+  // }
+  padding: 5px;
+  img {
+    width: 110%;
+  }
+}
+.arong img::hover {
+  cursor: pointer;
+}
+
+// .hover {
+//   .card-body {
+//     position: absolute;
+
+//       cursor: pointer;
+//       position: absolute;
+//       text-align: start;
+//       top: 50%;
+//       left: 50%;
+//       transform: translate(-50%, -50%);
+//       opacity: 0;
+//       transition: opacity 0.3s ease-in-out;
+
+//   }
+// }
+.hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.hover:hover .card {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.hover:hover .card-body {
+  display: block;
+  opacity: 1;
+}
+.test::hover .card-text {
+  cursor: pointer;
+  display: block;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+// Services Section
+.service {
+  img {
+    width: 100px;
+  }
+  .card-body {
+    cursor: pointer;
+  }
+}
+.service-item {
+  h5 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+    text-align: start;
+  }
+}
+
+// Footer
+footer {
+  .nav-link {
+    color: white;
+  }
+  .footer-add {
+    p {
+      font-size: 12px;
+      padding: 0;
+      margin-top: -5px;
+    }
+  }
+}
+
+// abouts Us section
+.iframePadding {
+  -moz-border-radius: 3%;
+  -webkit-border-radius: 3%;
+  border-radius: 3%;
+  overflow: hidden;
+  position: relative;
+}
+
+// Beginning Section
+.beginning {
+  img {
+    // margin-left: 5%;
+    // margin-right: 5%;
+    // padding-right: 70px;
+    // width: 150px;
+    margin-top: 10px;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0f1217;
+  }
+  p {
+    color: #535457;
+    font-size: 14px;
+    line-height: 22px;
+    // align-items: start;
+    text-align: left;
+  }
+}
+
+// Service_Page
+
+.service-card {
+  .col-md-4 {
+    padding: 5px;
+    height: 100%;
+    p{
+    padding: 5px;
+    }
+  }
+  
+}
+
+#number_section{
+  width: 100%;
+}

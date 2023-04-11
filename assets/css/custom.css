@@ -1,0 +1,72 @@
+.details-list h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  margin-botttom: 15px;
+  color: #0f1217;
+}
+.details-list p {
+  font-size: 14px;
+}
+
+/* Portfolio Css */
+.gallery-title {
+  font-size: 36px;
+  color: #42b32f;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #5e5e5e;
+}
+.filter-button {
+  font-size: 18px;
+  border: 1px solid #42b32f;
+  border-radius: 5px;
+  text-align: center;
+  color: #42b32f;
+  margin-bottom: 30px;
+}
+.filter-button:hover {
+  font-size: 18px;
+  border: 1px solid #42b32f;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #42b32f;
+}
+.btn-default:active .filter-button:active {
+  background-color: #42b32f;
+  color: white;
+}
+
+.port-image {
+  width: 100%;
+}
+
+.gallery_product {
+  margin-bottom: 30px;
+}
+
+nav {
+  background-color: transparent !important;
+  transition: background-color 0.5s ease;
+}
+
+nav.navbar-scrolled {
+  background-color: rgba(30, 67, 86, 0.8) !important;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-toggler{
+      background-color: #fff;
+    }
+}
+  
