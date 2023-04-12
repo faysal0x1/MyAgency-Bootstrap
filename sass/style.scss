@@ -159,5 +159,18 @@ nav {
 }
 
 nav.navbar-scrolled {
-  background-color: rgba(30, 67, 86, 0.8) ;
+  background-color: rgba(30, 67, 86, 0.8);
+  
+}
+
+// Blog.html
+.blog-text{
+  h2{
+    font-size: 45px;
+    font-weight: 700;
+  }
+  p{
+    font-size: 20px;
+    font-weight: 400;
+  }
 }
