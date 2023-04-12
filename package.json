@@ -10,7 +10,6 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.4",
-    "material-icons": "^1.13.4",
     "owl.carousel": "^2.3.4"
   }
 }

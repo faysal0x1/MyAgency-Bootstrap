@@ -72,3 +72,6 @@ $(document).ready(function () {
 });
 
 // AOS ANIMAte
+AOS.init({
+  duration: 1200,
+})
