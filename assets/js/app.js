@@ -1,4 +1,15 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import $ from '../../node_modules/jquery/dist/jquery';
 
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 50) {
+    $('nav').addClass('navbar-scrolled');
+  } else {
+    $('nav').removeClass('navbar-scrolled');
+  }
+});
 
 
 
@@ -60,3 +71,7 @@ $(document).ready(function () {
   $(this).addClass("active");
 });
 
+// AOS ANIMAte
+AOS.init({
+  duration: 1200,
+})
