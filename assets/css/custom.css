@@ -54,14 +54,7 @@
   margin-bottom: 30px;
 }
 
-nav {
-  background-color: transparent !important;
-  transition: background-color 0.5s ease;
-}
 
-nav.navbar-scrolled {
-  background-color: rgba(30, 67, 86, 0.8) !important;
-}
 
 @media (max-width: 768px) {
   .card.service {

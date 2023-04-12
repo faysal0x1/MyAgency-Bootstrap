@@ -12258,3 +12258,13 @@ footer .footer-add p {
 #number_section {
   width: 100%;
 }
+
+nav {
+  background-color: transparent !important;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+nav.navbar-scrolled {
+  background-color: rgba(30, 67, 86, 0.8) !important;
+}
