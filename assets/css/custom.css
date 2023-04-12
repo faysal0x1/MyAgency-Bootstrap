@@ -61,9 +61,9 @@
   .service img {
     margin: auto;
   }
-  .navbar-toggler {
-    background-color: #fff !important;
-  }
+  /* .navbar-toggler {
+    background-color: off !important;
+  } */
 
 
 }

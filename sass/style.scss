@@ -154,23 +154,31 @@ footer {
 }
 
 nav {
-  background-color: transparent ;
+  background-color: transparent;
   transition: background-color 0.5s ease;
 }
 
 nav.navbar-scrolled {
   background-color: rgba(30, 67, 86, 0.8);
-  
 }
 
 // Blog.html
-.blog-text{
-  h2{
+.blog-text {
+  h2 {
     font-size: 45px;
     font-weight: 700;
   }
-  p{
+  p {
     font-size: 20px;
     font-weight: 400;
+  }
+}
+
+@media (max-width: 768px) {
+ nav{
+  background-color: rgba(30, 67, 86, 0.9);
+ }
+  .navbar-toggler {
+    background-color: oldlace !important;
   }
 }
