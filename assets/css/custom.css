@@ -63,10 +63,14 @@ nav.navbar-scrolled {
   background-color: rgba(30, 67, 86, 0.8) !important;
 }
 
-
 @media (max-width: 768px) {
-    .navbar-toggler{
-      background-color: #fff;
-    }
+  .card.service {
+    border: 1px solid black !important;
+  }
+  .service img {
+    margin: auto;
+  }
+  .navbar-toggler {
+    background-color: #fff;
+  }
 }
-  

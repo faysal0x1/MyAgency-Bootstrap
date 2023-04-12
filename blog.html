@@ -234,7 +234,16 @@
   <script src="/node_modules/jquery/dist/jquery.js"></script>
   <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
   <script src="assets/js/app.js"></script>
+  <script>
 
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 50) {
+        $('nav').addClass('navbar-scrolled');
+      } else {
+        $('nav').removeClass('navbar-scrolled');
+      }
+    });
+  </script>
 </body>
 
 </html>

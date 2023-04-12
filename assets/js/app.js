@@ -1,9 +1,9 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import $ from '/node_modules/jquery/dist/jquery.js';
+import $ from '../../node_modules/jquery/dist/jquery.js';
 
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   if ($(this).scrollTop() > 50) {
     $('nav').addClass('navbar-scrolled');
   } else {
